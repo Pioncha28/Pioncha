@@ -5,6 +5,9 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class CalculatorTest {
+    /**
+     * Testowa klasa dla klasy kalkulator.
+     */
     @Test
     public void testAddition() {
         Calculator calculator = new Calculator();
@@ -13,7 +16,9 @@ public class CalculatorTest {
             throw new AssertionError("Addition test failed. Expected: 5, but got: " + result);
         }
     }
-
+    /**
+     * Test dla dodawania.
+     */
     @Test
     public void testSubtraction() {
         Calculator calculator = new Calculator();
@@ -22,7 +27,9 @@ public class CalculatorTest {
             throw new AssertionError("Subtraction test failed. Expected: 2, but got: " + result);
         }
     }
-
+    /**
+     * Test dla mnożenia.
+     */
     @Test
     public void testMultiplication() {
         Calculator calculator = new Calculator();
@@ -31,7 +38,9 @@ public class CalculatorTest {
             throw new AssertionError("Multiplication test failed. Expected: 12, but got: " + result);
         }
     }
-
+    /**
+     * Test dla dzielenia.
+     */
     @Test
     public void testDivision() {
         Calculator calculator = new Calculator();
@@ -40,7 +49,9 @@ public class CalculatorTest {
             throw new AssertionError("Division test failed. Expected: 5, but got: " + result);
         }
     }
-
+    /**
+     * Test dla dzielenia przez 0.
+     */
     @Test
     public void testDivisionByZero() {
         Calculator calculator = new Calculator();
