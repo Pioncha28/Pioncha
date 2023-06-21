@@ -2,7 +2,6 @@ package org.example.test;
 
 import org.example.calculator.Calculator;
 import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
 
 public class CalculatorTest {

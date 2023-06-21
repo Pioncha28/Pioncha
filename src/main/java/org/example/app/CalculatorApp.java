@@ -2,7 +2,13 @@ package org.example.app;
 
 import org.example.calculator.Calculator;
 
+/**
+ * Klasa `CalculatorApp` jest aplikacją konsolową, która demonstruje funkcje klasy `Calculator`.
+ */
 public class CalculatorApp {
+/**
+ * Metoda główna aplikacji.
+ */
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
 
